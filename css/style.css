@@ -1,0 +1,159 @@
+/*********** General ***********/
+
+
+:root {
+    --main-color: #0065FC;
+    --main-bg-color: #F2F2F2;
+    --filter-bg-color: #DEEBFF;
+
+    font-family: 'Raleway', sans-serif;
+
+    h1, h2 {
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;    
+    }
+    
+    h3 {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    p {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+}
+
+body {
+    max-width: 1440px;
+    min-width: 320px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.filters svg {
+    max-width: 22px;
+    max-height: 22px;
+}
+
+.fa-star {
+    max-width: 14.294px;
+    max-height: 13.25px;    
+}
+
+
+/*********** header begins ***********/
+
+header {
+    max-width: 1440px;
+    max-height: 79px;
+    margin: auto;
+    padding: 0 50px;
+
+}
+
+#logo {
+    max-width: 161px;
+    max-height: 79px;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    gap: 910px;
+}
+
+nav img {
+    padding: 30px 0;
+}
+
+nav ul {
+    display: flex;
+    width: 330px;
+    padding: 0px 25px;
+    flex-direction: row;
+    align-items: center;
+    gap: 68px;
+    line-height: 50px;
+}
+
+nav a {
+    border-top: 2px solid white;
+    }
+
+.line {
+    border-top: 3px solid;
+    color: #ffffff;
+    top: 0.4125rem;
+    width: 100%;
+}
+
+nav a:link  {
+    color: var(--main-color);
+}
+
+
+nav a:hover .line, a:hover {
+    color: var(--main-color);
+}
+
+nav a:active {
+    color: var(--main-color);
+}
+
+/*********** header ends ***********/
+
+/*---------------------  -------------------------*/
+
+/*********** main begins ***********/
+
+main {
+    padding: 30px 50px;
+}
+
+main h1 {
+    margin-bottom: 8px;
+}
+
+main p {
+    margin-bottom: 35px;
+}
+
+main form {
+    display: flex;
+    max-width: 377px;
+    max-height: 49px;
+    align-items: center;
+    gap: 24px;
+    background: rgba(242, 242, 242, 1);
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+
+}
+
+main form i {
+    color: #000000;
+    width: 50px;
+    height: 49px;
+}
+
+main form input {
+    height: 45px;
+    width: 169px;
+    border: none;
+}
