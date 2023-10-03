@@ -28,12 +28,14 @@
                 <H1>Trouvez votre hébergement pour des vacances de rêves</H1>
                 <p>En plein centre-ville ou en plein nature</p>
                 <form action="#">
-                    <i class="fa-solid fa-location-dot" style="color: #000000;"></i>
+                    <img src="../images/Group 15.svg" alt="localisation">
+                    <!--i class="fa-solid fa-location-dot" style="color: #000000;"></i-->
                     <input type="text" placeholder="Tapez la ville de votre choix">
                     <button type="submit">Rechercher</button>
                 </form>
             </div>
             <div class="filters">
+                <h3>Filtres</h3>
                 <ul>
                     <li>
                         <i class="fa-solid fa-money-bill-wave" style="color: #0065fc;"></i>
@@ -50,18 +52,19 @@
                     </ul>
             </div>
             <div id="info">
-                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 192 512">
-                    <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <img src="../images/Icon-info.svg" alt="Icon info">
+                <!--svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 192 512">
+                    <--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
                     <style>svg{fill:#0165fb}</style>
-                    <path d="M48 80a48 48 0 1 1 96 0A48 48 0 1 1 48 80zM0 224c0-17.7 14.3-32 32-32H96c17.7 0 32 14.3 32 32V448h32c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H64V256H32c-17.7 0-32-14.3-32-32z"/></svg>
+                    <!--path d="M48 80a48 48 0 1 1 96 0A48 48 0 1 1 48 80zM0 224c0-17.7 14.3-32 32-32H96c17.7 0 32 14.3 32 32V448h32c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H64V256H32c-17.7 0-32-14.3-32-32z"/></svg-->
+                    <p>Plus de 500 logements sont disponibles dans cette ville</p>
             </div>
-            <span>Plus de 500 logements sont disponibles dans cette ville</span>
         </section>
         <section id="places-catalogue">
-            <div class="city-catalogue">
+            <div id="city-catalogue">
                 <h2>Hébergements à Marseille</h2>
                 <ul>
-                    <li>
+                    <li class="card-main">
                         <a href="#">
                             <img src="../images/hebergements/fred-kleber.jpg" alt="Chambre deux lits">
                             <h3>Hôtel du Port</h3>
@@ -75,7 +78,7 @@
                             </span>
                         </a>
                     </li>
-                    <li>
+                    <li class="card-main">
                         <a href="#">
                             <img src="../images/hebergements/febrian-zakaria.jpg" alt="Chambre double">
                             <h3>Hôtel Chez Amina</h3>
@@ -89,7 +92,7 @@
                             </span>
                         </a>
                     </li>
-                    <li>
+                    <li class="card-main">
                         <a href="#">
                             <img src="../images/hebergements/reisetopia.jpg" alt="Chambre double avec placard">
                             <h3>Hôtel Les mouettes</h3>
@@ -103,7 +106,7 @@
                             </span>
                         </a>
                     </li>
-                    <li>
+                    <li class="card-main">
                         <a href="#">
                             <img src="../images/hebergements/annie-spratt.jpg" alt="Belle chambre double">
                             <h3>Hôtel de la mer</h3>
@@ -117,7 +120,7 @@
                             </span>
                         </a>
                     </li>
-                    <li>
+                    <li class="card-main">
                         <a href="#">
                             <img src="../images/hebergements/marcus-loke.jpg" alt="Chambre avec lit superposée">
                             <h3>Auberge La Canebière</h3>
@@ -131,7 +134,7 @@
                             </span>
                         </a>
                     </li>
-                    <li>
+                    <li class="card-main">
                         <a href="#">
                             <img src="../images/hebergements/nicate-lee.jpg" alt="Chambre 4 personnes avec lits superposées">
                             <h3>Auberge Le Panier</h3>

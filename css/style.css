@@ -34,9 +34,10 @@
 body {
     max-width: 1440px;
     min-width: 320px;
+    gap: 35px;
 }
 
-ul {
+* ul {
     list-style: none;
 }
 
@@ -120,7 +121,7 @@ nav a:active {
 
 /*---------------------  -------------------------*/
 
-/*********** main begins ***********/
+/*********** main search begins ***********/
 
 main {
     padding: 30px 50px;
@@ -140,9 +141,10 @@ main form {
     max-height: 49px;
     align-items: center;
     gap: 24px;
-    background: rgba(242, 242, 242, 1);
-    border-bottom-left-radius: 15px;
-    border-top-left-radius: 15px;
+    background: white;
+    border-radius: 15px;
+    border: 1px solid #F2F2F2;
+    margin-bottom: 35px;
 
 }
 
@@ -154,6 +156,141 @@ main form i {
 
 main form input {
     height: 45px;
-    width: 169px;
+    width: 195px;
     border: none;
+    margin-left: -24px;
+    text-align:right;
+    font-family: Raleway;
+    font-size: 12px;
+
 }
+
+main form button {
+    display: flex;
+    height: 49px;
+    padding: 15px 16px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 0px 15px 15px 0px;
+    border: 1px solid var(--Blue, #0065FC);
+    background: var(--Blue, #0065FC);
+    color:white;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+main .filters {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+    gap: 15px;
+    height: 50px;
+    margin-bottom: 35px;
+}
+
+main .filters ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    height: 50px;
+    flex-direction: row;
+    align-items: center;
+    margin-left: -40px;
+}
+
+main .filters ul li {
+    display: flex;
+    color: Black;
+    font-family: Raleway;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    height: 40px;
+    padding: 4px 19px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 32px;
+    border: 2px solid #F2F2F2
+}
+
+main #info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 24px;
+    gap: 10px;
+    margin-bottom: 35px;
+}
+
+main #info p {
+    margin-top: 35px;
+}
+
+/*********** main search ends ***********/
+
+/*---------------------  -------------------------*/
+
+/*********** main place catalogue begins ***********/
+
+main #places-catalogue {
+    display: flex;
+    max-width: 871px;
+    max-height: 612px;
+    padding: 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    border-radius: 15px;
+    background:var(--main-bg-color);
+}
+
+main #city-catalogue {
+    margin-top: -23px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+main #city-catalogue h2 {
+    margin-bottom: 0;
+}
+
+main #city-catalogue ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 30px;
+    margin-left: -43px;
+}
+
+main .card-main {
+    display: flex;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding-bottom: 4px;
+    flex: 1 0 0;
+    border-radius: 20px;
+    background: #FFF;
+    /* Shadow/Card */
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
+}
+
+main .card-main img {
+    height: 124px;
+    align-self: stretch;
+    border-radius: 20px 20px 0px 0px;
+    border: 5px solid var(--White, #FFF);
+    background: lightgray 50% / cover no-repeat;
+}
+
