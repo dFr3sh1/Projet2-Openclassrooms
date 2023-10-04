@@ -236,22 +236,34 @@ main #info p {
 
 /*---------------------  -------------------------*/
 
-/*********** main place catalogue begins ***********/
+/*********** main places-catalogue begins ***********/
 
 main #places-catalogue {
     display: flex;
-    max-width: 871px;
-    max-height: 612px;
-    padding: 30px;
     flex-direction: column;
     align-items: flex-start;
     gap: 30px;
+}
+main .shadow-style {
+    padding: 30px;
     border-radius: 15px;
     background:var(--main-bg-color);
 }
 
+
+main .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /**/
+    border-radius: 20px;
+    background: #FFF;
+    /* Shadow/Card */
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
+}
+
 main #city-catalogue {
-    margin-top: -23px;
+    width: 811px;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -263,34 +275,49 @@ main #city-catalogue h2 {
 
 main #city-catalogue ul {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
     gap: 30px;
-    margin-left: -43px;
+    margin-left: -39px;
+    margin-bottom: 0;
 }
 
-main .card-main {
+main #city-catalogue ul li a {
     display: flex;
-    padding-bottom: 0px;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     width: 100%;
     height: auto;
-    padding-bottom: 4px;
-    flex: 1 0 0;
-    border-radius: 20px;
-    background: #FFF;
-    /* Shadow/Card */
-    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
+    gap: 4px;
 }
 
-main .card-main img {
+main .main-card {
+    width: 250px;
+    padding-bottom: 0px;
+}
+
+main .main-card img {
+    width: 96%;
     height: 124px;
-    align-self: stretch;
     border-radius: 20px 20px 0px 0px;
     border: 5px solid var(--White, #FFF);
     background: lightgray 50% / cover no-repeat;
 }
+
+main .main-card-info {
+    margin: 0;
+    padding: 0 15px 4px;
+}
+
+main .star-rating {
+    padding: 0 15px 15px;
+}
+
+/*********** main places-catalogue ends ***********/
+
+/*---------------------  -------------------------*/
+
+/*********** main article begins ***********/
 
