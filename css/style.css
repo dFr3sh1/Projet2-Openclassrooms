@@ -219,6 +219,10 @@ main .filters ul li {
     border: 2px solid #F2F2F2
 }
 
+main .filters ul li:hover {
+    background-color: var(--filter-bg-color);
+}
+
 main #info {
     display: flex;
     flex-direction: row;
@@ -242,7 +246,8 @@ main #places-catalogue {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    gap: 38.95px;
+    gap: 40px;
+    margin-bottom: 35px;
 }
 main .shadow-style {
     padding: 30px;
@@ -263,10 +268,10 @@ main .card {
 }
 
 main #city-catalogue {
-    width: 815.61px;
+    width: 792.61px;
     display: flex;
     flex-direction: column;
-    gap: 29.2px;
+    gap: 30px;
 }
 
 main #city-catalogue h2 {
@@ -277,12 +282,9 @@ main #city-catalogue ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    gap: 29.2px;
-    margin-left: -38px;
-    margin-bottom: 0;
-    margin-top: 0;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
 }
 
 main #city-catalogue ul li a {
@@ -336,7 +338,7 @@ main .star-rating {
 main article {
     display: flex;
     flex-direction: column;
-    width: 361.22px;
+    width: 374px;
     height: auto;
 
 }
@@ -404,3 +406,87 @@ main article .sponsored-star-rating {
 main article #au-coeur-sponsored {
     top: 32px;
 }
+
+/*********** main article ends ***********/
+
+/*---------------------  -------------------------*/
+
+/*********** main activities begins ***********/
+
+main #activities {
+    width: 1267px;
+    height: auto;
+    padding: 30px;
+    margin-bottom: 35px;
+}
+
+main #activities h2 {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+main #activities ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+main #activities li a {
+    display: flex;
+    width: 294px;
+    height: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 20px;
+    /* Shadow/Card */
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
+}
+
+main #activities li img {
+    height: 380px;
+    flex-shrink: 0;
+    align-self: stretch;
+    border-radius: 20px 20px 0px 0px;
+    background: lightgray 50% / cover no-repeat;
+}
+
+main #activities li h4 {
+    margin: 0;
+    padding: 20px 19px;
+}
+
+/*********** main activities ends ***********/
+
+/*---------------------  -------------------------*/
+
+/*********** footer begins ***********/
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #F2F2F2;
+    width: 1340px;
+    height: auto;
+    margin-left: 43.5px;
+}
+
+footer div {
+    display: flex;
+    width: 446px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+footer div ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+/*********** footer ends ***********/
