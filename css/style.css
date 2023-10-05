@@ -34,7 +34,7 @@
 body {
     max-width: 1440px;
     min-width: 320px;
-    gap: 35px;
+    padding-bottom: 60.5px;
 }
 
 * ul {
@@ -47,13 +47,13 @@ a {
 }
 
 .filters svg {
-    max-width: 22px;
-    max-height: 22px;
+    max-width: 21.42px;
+    max-height: 21.42px;
 }
 
 .fa-star {
-    max-width: 14.294px;
-    max-height: 13.25px;    
+    max-width: 13.92px;
+    max-height: 12.90px;    
 }
 
 
@@ -76,21 +76,21 @@ nav {
     display: flex;
     width: 100%;
     align-items: flex-start;
-    gap: 910px;
+    gap: 896.4px;
 }
 
 nav img {
-    padding: 30px 0;
+    padding: 29.21px 0;
 }
 
 nav ul {
     display: flex;
-    width: 330px;
-    padding: 0px 25px;
+    width: 321.3px;
+    padding: 0px 24.34px;
     flex-direction: row;
     align-items: center;
-    gap: 68px;
-    line-height: 50px;
+    gap: 66.2px;
+    line-height: 48.68px;
 }
 
 nav a {
@@ -124,41 +124,41 @@ nav a:active {
 /*********** main search begins ***********/
 
 main {
-    padding: 30px 50px;
+    padding: 29.21px 48.68px;
 }
 
 main h1 {
-    margin-bottom: 8px;
+    margin-bottom: 7.79px;
 }
 
 main p {
-    margin-bottom: 35px;
+    margin-bottom: 34.1px;
 }
 
 main form {
     display: flex;
-    max-width: 377px;
-    max-height: 49px;
+    max-width: 367px;
+    max-height: 47.7px;
     align-items: center;
-    gap: 24px;
+    gap: 23.37px;
     background: white;
     border-radius: 15px;
     border: 1px solid #F2F2F2;
-    margin-bottom: 35px;
+    margin-bottom: 34.1px;
 
 }
 
 main form i {
     color: #000000;
-    width: 50px;
-    height: 49px;
+    width: 48.68px;
+    height: 47.7px;
 }
 
 main form input {
-    height: 45px;
-    width: 195px;
+    height: 43.81px;
+    width: 189.85px;
     border: none;
-    margin-left: -24px;
+    margin-left: -23.37px;
     text-align:right;
     font-family: Raleway;
     font-size: 12px;
@@ -167,10 +167,10 @@ main form input {
 
 main form button {
     display: flex;
-    height: 49px;
-    padding: 15px 16px;
+    height: 47.7px;
+    padding: 14.6px 15.58px;
     align-items: center;
-    gap: 10px;
+    gap: 9.73px;
     border-radius: 0px 15px 15px 0px;
     border: 1px solid var(--Blue, #0065FC);
     background: var(--Blue, #0065FC);
@@ -188,19 +188,19 @@ main .filters {
     flex-direction: row;
     align-items: center;
     width: auto;
-    gap: 15px;
-    height: 50px;
-    margin-bottom: 35px;
+    gap: 14.6px;
+    height: 48.68px;
+    margin-bottom: 34.07px;
 }
 
 main .filters ul {
     display: flex;
     justify-content: space-around;
-    gap: 15px;
-    height: 50px;
+    gap: 14.6px;
+    height: 48.68px;
     flex-direction: row;
     align-items: center;
-    margin-left: -40px;
+    margin-left: -38.95px;
 }
 
 main .filters ul li {
@@ -211,10 +211,10 @@ main .filters ul li {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    height: 40px;
-    padding: 4px 19px;
+    height: 38.94px;
+    padding: 3.89px 18.5px;
     align-items: center;
-    gap: 10px;
+    gap: 9.73px;
     border-radius: 32px;
     border: 2px solid #F2F2F2
 }
@@ -223,13 +223,13 @@ main #info {
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 24px;
-    gap: 10px;
-    margin-bottom: 35px;
+    height: 23.37px;
+    gap: 9.73px;
+    margin-bottom: 34.07px;
 }
 
 main #info p {
-    margin-top: 35px;
+    margin-top: 34.07px;
 }
 
 /*********** main search ends ***********/
@@ -240,9 +240,9 @@ main #info p {
 
 main #places-catalogue {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
-    gap: 30px;
+    gap: 38.95px;
 }
 main .shadow-style {
     padding: 30px;
@@ -254,7 +254,7 @@ main .shadow-style {
 main .card {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     /**/
     border-radius: 20px;
     background: #FFF;
@@ -263,14 +263,14 @@ main .card {
 }
 
 main #city-catalogue {
-    width: 811px;
+    width: 815.61px;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 29.2px;
 }
 
 main #city-catalogue h2 {
-    margin-bottom: 0;
+    margin: 0;
 }
 
 main #city-catalogue ul {
@@ -279,9 +279,10 @@ main #city-catalogue ul {
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
-    gap: 30px;
-    margin-left: -39px;
+    gap: 29.2px;
+    margin-left: -38px;
     margin-bottom: 0;
+    margin-top: 0;
 }
 
 main #city-catalogue ul li a {
@@ -294,25 +295,36 @@ main #city-catalogue ul li a {
 }
 
 main .main-card {
-    width: 250px;
+    width: 243.4px;
     padding-bottom: 0px;
 }
 
 main .main-card img {
     width: 96%;
-    height: 124px;
+    height: 120.73px;
     border-radius: 20px 20px 0px 0px;
     border: 5px solid var(--White, #FFF);
     background: lightgray 50% / cover no-repeat;
 }
 
 main .main-card-info {
+    display: flex;
+    flex-direction: column;
     margin: 0;
-    padding: 0 15px 4px;
+    padding-left: 15px;
+}
+
+main .main-card-info h3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+main .main-card-info span {
+    margin-bottom: 8px;
 }
 
 main .star-rating {
-    padding: 0 15px 15px;
+    padding: 0 0 10px;
 }
 
 /*********** main places-catalogue ends ***********/
@@ -321,3 +333,74 @@ main .star-rating {
 
 /*********** main article begins ***********/
 
+main article {
+    display: flex;
+    flex-direction: column;
+    width: 361.22px;
+    height: auto;
+
+}
+
+main article #title-most-popular {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+
+main article #title-most-popular h2 {
+    margin: 0;
+}
+
+main article .sponsored-card {
+    width: 359.27px;
+    height: 144px;
+    
+}
+
+main article ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 39.2px;
+    position: relative;
+    left: -21.42px;
+}
+
+main article a {
+    display: flex;
+}
+
+main article .sponsored-card-info {
+    display: flex;
+    flex-direction: column;
+    padding: 9.73px 4.87px 4.87px 14.6px;
+}
+
+main article .most-popular img {
+    width: 119.76px;
+    height: 133.44px;
+    border-radius: 20px 0px 0px 20px;
+    border-top: 5px solid var(--White, #FFF);
+    border-bottom: 5px solid var(--White, #FFF);
+    border-left: 5px solid var(--White, #FFF);
+    background: lightgray 50% / cover no-repeat;
+}
+
+main article h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+main article .sponsored-star-rating {
+    position: relative;
+    top: 54px;
+}
+
+main article #au-coeur-sponsored {
+    top: 32px;
+}
