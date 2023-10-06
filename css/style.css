@@ -7,29 +7,8 @@
     --filter-bg-color: #DEEBFF;
 
     font-family: 'Raleway', sans-serif;
-
-    h1, h2 {
-        font-size: 22px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;    
-    }
-    
-    h3 {
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-    }
-    
-    p {
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-
 }
+
 
 body {
     max-width: 1440px;
@@ -49,6 +28,7 @@ a {
 .filters svg {
     max-width: 21.42px;
     max-height: 21.42px;
+    fill: #0065FC;
 }
 
 .fa-star {
@@ -56,6 +36,26 @@ a {
     max-height: 12.90px;    
 }
 
+h1, h2 {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;    
+}
+
+h3 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
 /*********** header begins ***********/
 
@@ -111,6 +111,9 @@ nav a:link  {
 
 nav a:hover .line, a:hover {
     color: var(--main-color);
+    /* Shadow/Card */
+    border-radius: 15px;
+    box-shadow: 0px 3px 15px 0px rgba(0, 101, 252, 0.1);
 }
 
 nav a:active {
@@ -384,6 +387,7 @@ main article a {
 main article .sponsored-card-info {
     display: flex;
     flex-direction: column;
+    width: 214.51px;
     padding: 9.73px 4.87px 4.87px 14.6px;
 }
 
@@ -444,9 +448,6 @@ main #activities li a {
     height: auto;
     flex-direction: column;
     align-items: flex-start;
-    border-radius: 20px;
-    /* Shadow/Card */
-    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
 }
 
 main #activities li img {
