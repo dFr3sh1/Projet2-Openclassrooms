@@ -329,6 +329,10 @@ main .star-rating {
     padding: 0 0 10px;
 }
 
+main #city-catalogue #read-more:hover {
+    color: var(--main-color);
+}
+
 /*********** main places-catalogue ends ***********/
 
 /*---------------------  -------------------------*/
@@ -487,6 +491,10 @@ footer div ul {
     gap: 15px;
     padding: 0;
     margin: 0;
+}
+
+footer div ul li:hover {
+    color: var(--main-color);
 }
 
 /*********** footer ends ***********/
