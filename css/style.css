@@ -499,3 +499,131 @@ footer div ul li:hover {
 }
 
 /*********** footer ends ***********/
+
+/*---------------------  -------------------------*/
+
+/*********** Responsive begins ***********/
+
+
+/********** To handle different screen sizes ************/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
+        max-width: 768px; /* Max width for tablets */
+    }
+
+    nav {
+        gap: 480px;
+    }
+
+    main .filters {
+        flex-direction: column;
+        align-items: flex-start; 
+        height: auto;
+        gap: 0;
+    }
+
+    main #places-catalogue {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    main #city-catalogue {
+        width: 845.41px;
+    }
+
+    main .main-card {
+        width: 260px;
+    }
+
+    main article {
+        width: 845px;
+    }
+
+    main article #title-most-popular {
+        margin-left: 3px;
+    }
+
+    main article ul {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        gap: 20px;
+        align-items: center;
+        left: -40px;
+    }
+
+    main article .sponsored-card {
+        width: 274px;
+    }
+
+    main article ul li {
+        width: 274px;
+    }
+
+    main article .most-popular img {
+        width: 91.67px;
+    }
+
+    main article .sponsored-card-info {
+        width: 157px;
+        padding: 9.73px 4.87px 6.87px 9.6px;
+    }
+
+    main article span {
+        font-size: 14px;
+    }
+
+    main article #au-coeur-sponsored {
+        top: 49px;
+    }
+
+    main article .sponsored-star-rating  {
+        top: 49px;
+    }
+
+    main article #tablette {
+        top: 68px;
+    }
+
+    main #activities {
+        width: 844px;
+    }
+
+    main #activities ul {
+        flex-wrap: nowrap ;
+    }
+
+    main #activities li a {
+        width: 193.5px;
+    }
+
+    main #activities li img {
+        height: 200px;
+    }
+
+    main #activities li h4 {
+        height: 36px;
+    }
+
+    footer {
+        width: 922px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    body {
+        max-width: 100%; /* Max width for mobile phones */
+    }
+}
+
+
+/* To handle screens wider than 1440px */
+@media (min-width: 1441px) {
+    body {
+        max-width: 1440px; /* Max width and center content with white space on sides */
+        margin: 0 auto;
+        overflow-x: initial; /* Revert to default behavior */
+    }
+}
