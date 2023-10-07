@@ -61,7 +61,7 @@ p {
 
 header {
     max-width: 1440px;
-    max-height: 79px;
+    height: auto;
     margin: auto;
     padding: 0 50px;
 
@@ -93,9 +93,9 @@ nav ul {
     line-height: 48.68px;
 }
 
-nav a {
+/*nav a {
     border-top: 2px solid white;
-    }
+    }*/
 
 .line {
     border-top: 3px solid;
@@ -184,6 +184,12 @@ main form button {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+main section #mobil-research-btn {
+    display: none;
+    position: relative;
+
 }
 
 main .filters {
@@ -516,6 +522,13 @@ footer div ul li:hover {
         gap: 480px;
     }
 
+    main section #mobil-research-btn {
+    z-index: -1;
+    display: none;
+    position: relative;
+    
+}
+
     main .filters {
         flex-direction: column;
         align-items: flex-start; 
@@ -614,8 +627,156 @@ footer div ul li:hover {
 
 @media (max-width: 767px) {
     body {
+        display: flex;
+        flex-direction: column;
         max-width: 100%; /* Max width for mobile phones */
+        height: auto;
+        padding: 0px 30px ;
+        margin: 0;
+        gap: 30px;
     }
+
+    header  {
+        max-width: 100%;
+        height: 115px;
+        padding: 0;
+
+    }
+
+    header nav {
+        position: relative;
+        flex-direction: column;
+        height: 79px;
+        align-items: center;
+        gap: 0;
+        width: 375px;
+        left: -30px;
+    }
+
+    header nav img {
+        width: 61.09px;
+    }
+
+    header nav ul {
+        width: 375px;
+        height: 0;
+        gap: 0;
+    }
+
+    header nav ul .line {
+        position: relative;
+        width: 100%;
+        top: 55px;
+    }
+
+    header nav ul li {
+        width: 50%;
+        height: 36px;
+    }
+
+    header nav ul li a {
+        position: relative;
+        top: -20px;
+    }
+
+    header nav ul li a div {
+        padding-left: auto;
+    }
+
+
+    main {
+        padding: 0;
+    }
+
+    main form {
+        width: 318px;
+    }
+
+    main section #research h1 {
+        margin-top: 0;
+    }
+
+    main section #research-btn {
+        display: none;
+    }
+
+    main section #mobil-research-btn {
+        display: inherit;
+        width: 49px;
+        border-radius: 15px;
+    }
+
+    main section #mobil-research-btn #search-icon {
+        position: relative;
+        top: 90%;
+    }
+
+    main .filters {
+        flex-direction: column;
+        align-items: flex-start;
+        width: auto;
+        justify-content: flex-start;
+    }
+
+    main .filters ul {
+        display: flex;
+        justify-content: flex-start;
+        width: 344px;
+        margin: 0;
+        padding: 0;
+        gap: 14.6px;
+        height: 48.68px;
+        flex-direction: row;
+        /* margin-left: -38.95px; */
+        flex-wrap: wrap;
+        /* align-items: center;*/
+    }
+
+    main .filters ul li {
+        font-size: 14px;
+        width: 120px;
+        gap: 15px;
+    }
+
+    main section #info {
+        width: 335px;
+        margin-top: 170px;
+
+    }
+
+    main #places-catalogue {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    main #places-catalogue article {
+        Width: 375px;
+        Height: auto;
+        Padding: 30px 20px 30px 20px;
+        Gap: 15px;
+    }
+
+    main #places-catalogue article #title-most-popular {
+        width: 335px;
+        padding-left: 20px;
+        margin: 0;
+    }
+
+    main article ul {
+        gap: 15px;
+        padding: 0;
+        left: 0;
+    }
+
+    main article .sponsored-card {
+        width: 335px;
+        height: auto;
+    }
+
+    main article .sponsored-card-info {
+        width: 192px;
+    }
+
 }
 
 
@@ -625,5 +786,11 @@ footer div ul li:hover {
         max-width: 1440px; /* Max width and center content with white space on sides */
         margin: 0 auto;
         overflow-x: initial; /* Revert to default behavior */
+    }
+
+    main section #mobil-research-btn {
+        display: none;
+        position: relative;
+        
     }
 }
