@@ -826,6 +826,7 @@ footer div ul li:hover {
 
     main #city-catalogue ul {
         padding-left: 5px;
+        gap: 15px;
     }
 
     main .main-card {
@@ -834,7 +835,35 @@ footer div ul li:hover {
 
     main #places-catalogue #read-more {
         padding-left: 5px;
+    }
 
+    main #activities {
+        width: 100%;
+        padding: 30px 0;
+        margin-bottom: 0;
+    }
+
+    main #activities ul {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    main #activities ul li a {
+        width: 304px;
+    }
+
+    main #activities ul li img {
+        width: 304px;    
+        height: 141px;
+        object-fit: cover;
+        object-position: 0 50%;
+    }
+
+    footer {
+        width: 320px;
+        flex-direction: column;
+        margin: 0;
     }
 
 }
