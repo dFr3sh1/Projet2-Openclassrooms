@@ -570,6 +570,10 @@ footer div ul li:hover {
         width: 274px;
     }
 
+    main article #title-desktop {
+        display: none;
+    }
+
     main article ul li {
         width: 274px;
     }
@@ -689,6 +693,7 @@ footer div ul li:hover {
 
 
     main {
+        width: 95%;
         padding: 0;
     }
 
@@ -768,12 +773,13 @@ footer div ul li:hover {
     main #places-catalogue article {
         width: 100%;
         padding: 30px 15px;
+        border-radius: 15px;
         background: var(--main-bg-color);
     }
 
     main #places-catalogue article #title-most-popular {
-        width: 95%;
-        padding-left: 0p;
+        width: 98%;
+        padding-left: 5px;
         margin: 0;
     }
 
@@ -789,13 +795,46 @@ footer div ul li:hover {
 
     main article .sponsored-card {
         position: relative;
-        width: 98%;
+        width: 100%;
         height: auto;
-        left: -9px;
+        left: 0;
     }
 
     main article .sponsored-card-info {
-        width: 192px;
+        width: 170px;
+    }
+
+    main article #title-desktop {
+        display: none;
+    }
+
+    main article #sponsored-star-rating-mobil {
+        top: 45px;
+    }
+
+    main #city-catalogue {
+        width: 320px;
+    }
+
+    main #city-catalogue h2 {
+        padding-left: 5px;
+    }
+    main .shadow-style {
+        background: none;
+        padding: 0;
+    }
+
+    main #city-catalogue ul {
+        padding-left: 5px;
+    }
+
+    main .main-card {
+        width: 98%;
+    }
+
+    main #places-catalogue #read-more {
+        padding-left: 5px;
+
     }
 
 }
@@ -811,7 +850,10 @@ footer div ul li:hover {
 
     main section #mobil-research-btn {
         display: none;
-        position: relative;
-        
+        position: relative;    
+    }
+
+    main article #title-mobil {
+        display: none;
     }
 }
