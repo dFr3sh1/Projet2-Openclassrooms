@@ -768,6 +768,7 @@ footer div ul li:hover {
     main #places-catalogue article {
         width: 100%;
         padding: 30px 15px;
+        background: var(--main-bg-color);
     }
 
     main #places-catalogue article #title-most-popular {
