@@ -721,9 +721,7 @@ footer div ul li:hover {
     main section #mobil-research-btn #search-icon {
         position: relative;
         top: 90%;
-    }
-
-    
+    }    
 
     main .filters {
         flex-direction: column;
@@ -761,22 +759,20 @@ footer div ul li:hover {
     main section #info p {
         font-size: 14px;
     }
-
+    
     main #places-catalogue {
         flex-direction: column-reverse;
         align-items: center;
     }
 
     main #places-catalogue article {
-        Width: 375px;
-        Height: auto;
-        Padding: 30px 20px 30px 20px;
-        Gap: 15px;
+        width: 100%;
+        padding: 30px 15px;
     }
 
     main #places-catalogue article #title-most-popular {
-        width: 335px;
-        padding-left: 20px;
+        width: 95%;
+        padding-left: 0p;
         margin: 0;
     }
 
@@ -786,9 +782,15 @@ footer div ul li:hover {
         left: 0;
     }
 
+    main article .most-popular img {
+        width: 111.67px;
+    }
+
     main article .sponsored-card {
-        width: 335px;
+        position: relative;
+        width: 98%;
         height: auto;
+        left: -9px;
     }
 
     main article .sponsored-card-info {
