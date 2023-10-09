@@ -629,18 +629,19 @@ footer div ul li:hover {
     body {
         display: flex;
         flex-direction: column;
-        max-width: 100%; /* Max width for mobile phones */
+        max-width: 320px;
         height: auto;
-        padding: 0px 30px ;
-        margin: 0;
         gap: 30px;
     }
 
+    p {
+        font-size: 15px;
+    }
+
     header  {
-        max-width: 100%;
+        max-width: 90%;
         height: 115px;
         padding: 0;
-
     }
 
     header nav {
@@ -649,8 +650,9 @@ footer div ul li:hover {
         height: 79px;
         align-items: center;
         gap: 0;
-        width: 375px;
-        left: -30px;
+        width: 100%;
+        left: 0;
+
     }
 
     header nav img {
@@ -658,14 +660,15 @@ footer div ul li:hover {
     }
 
     header nav ul {
-        width: 375px;
+        width: 320px;
         height: 0;
+        padding: 0;
         gap: 0;
     }
 
     header nav ul .line {
         position: relative;
-        width: 100%;
+        width: 160px;
         top: 55px;
     }
 
@@ -679,8 +682,9 @@ footer div ul li:hover {
         top: -20px;
     }
 
-    header nav ul li a div {
-        padding-left: auto;
+    header nav ul li a div.mobil-position {
+        display: flex;
+        justify-content: center;
     }
 
 
@@ -688,13 +692,21 @@ footer div ul li:hover {
         padding: 0;
     }
 
-    main form {
-        width: 318px;
+    main section #research {
+        position: relative;
+        top: -20px;
+        padding: 0 12px;
     }
 
-    main section #research h1 {
+    main #research h1 {
         margin-top: 0;
     }
+
+    main form {
+        width: 294px;
+        bottom: 30px;
+    }
+
 
     main section #research-btn {
         display: none;
@@ -710,6 +722,8 @@ footer div ul li:hover {
         position: relative;
         top: 90%;
     }
+
+    
 
     main .filters {
         flex-direction: column;
@@ -734,14 +748,18 @@ footer div ul li:hover {
 
     main .filters ul li {
         font-size: 14px;
-        width: 120px;
-        gap: 15px;
+        width: 100px;
+        gap: 8px;
     }
 
     main section #info {
-        width: 335px;
+        width: 296px;
         margin-top: 170px;
+        gap: 8px;
+    }
 
+    main section #info p {
+        font-size: 14px;
     }
 
     main #places-catalogue {
