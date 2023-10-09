@@ -42,7 +42,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ https://github.com/dFr3sh1/Projet2-Openclassrooms/html/index.html }}
+      url: ${{ steps.deplyment.output.page_url}}
     runs-on: ubuntu-latest
     needs: build
     steps:
