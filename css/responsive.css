@@ -1,0 +1,422 @@
+/*********** Responsive begins ***********/
+
+
+/********** To handle different screen sizes ************/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
+        max-width: 768px; /* Max width for tablets */
+    }
+
+    nav {
+        gap: 72%;
+    }
+
+    main {
+        width: 118%;
+    }
+
+    main section #mobil-research-btn {
+    z-index: -1;
+    display: none;
+    position: relative;   
+    }
+
+    main .filters {
+        flex-direction: column;
+        align-items: flex-start; 
+        height: auto;
+        gap: 0;
+    }
+
+    main #places-catalogue {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    main #city-catalogue {
+        width: 94%;
+        margin-bottom: 35px;
+    }
+
+    main .shadow-style #city-catalogue {
+        padding: 4%;
+    }
+
+    main .main-card {
+        width: 30%;
+    }
+
+    main article {
+        width: 94%;
+    }
+
+    main article #title-most-popular {
+        margin-left: 3px;
+    }
+
+    main article ul {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        gap: 3%;
+        align-items: center;
+    }
+
+    main article .sponsored-card {
+        width: 32%;
+    }
+
+    /*main article #title-desktop {
+        display: none;
+    }*/
+
+    main article ul li {
+        width: 60%;
+    }
+
+    main article .most-popular img {
+        width: 39%;
+    }
+
+    main article .sponsored-card-info {
+        width: 60%;
+        padding: 9.73px 4.87px 6.87px 9.6px;
+    }
+
+    main article span {
+        font-size: 14px;
+    }
+
+    main article #au-coeur-sponsored {
+        top: 49px;
+    }
+
+    main article .sponsored-star-rating  {
+        top: 49px;
+    }
+
+    main article #tablette {
+        top: 68px;
+    }
+
+    main #activities {
+        width: 96%;
+    }
+
+    main #activities ul {
+        flex-wrap: nowrap ;
+    }
+
+    main #activities li a {
+        width: 193.5px;
+    }
+
+    main #activities li img {
+        height: 200px;
+    }
+
+    main #activities li h4 {
+        height: 36px;
+    }
+
+    footer {
+        width: 118%;
+    }
+}
+
+
+@media (max-width: 767px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        max-width: 375px;
+        height: auto;
+        gap: 30px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    header  {
+        width: 100%;
+        height: 115px;
+        padding: 0;
+        margin: 0;
+    }
+
+    header nav {
+        position: relative;
+        flex-direction: column;
+        height: 79px;
+        align-items: center;
+        gap: 8%;
+
+    }
+
+    header nav img {
+        width: 61.09px;
+    }
+
+    header nav ul {
+        width: 100%;
+        height: 0;
+        padding: 0;
+        gap: 0;
+    }
+
+    header nav ul .line {
+        position: relative;
+        width: 100%;
+        top: 55px;
+    }
+
+    header nav ul li {
+        width: 50%;
+        height: 36px;
+    }
+
+    header nav ul li a {
+        position: relative;
+        top: -20px;
+    }
+
+    header nav ul li a div.mobil-position {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    main {
+        width: 100%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main section #research {
+        position: relative;
+        top: -20px;
+        padding: 0 12px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main section #research div {
+        width: 95%;
+    }
+
+    main #research h1 {
+        margin-top: 0;
+    }
+
+    main form {
+        max-width: 100%;
+        gap: 12%;
+        bottom: 30px;
+    }
+
+
+    main section #research-btn {
+        display: none;
+    }
+
+    main section #mobil-research-btn {
+        display: inherit;
+        width: 49px;
+        border-radius: 15px;
+    }
+
+    main section #mobil-research-btn #search-icon {
+        position: relative;
+        top: 90%;
+    }    
+
+    main .filters {
+        flex-direction: column;
+        align-items: flex-start;
+        width: auto;
+        justify-content: flex-start;
+    }
+
+    main .filters ul {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        gap: 14.6px;
+        height: 48.68px;
+        flex-direction: row;
+        /* margin-left: -38.95px; */
+        flex-wrap: wrap;
+        /* align-items: center;*/
+    }
+
+    main .filters ul li {
+        font-size: 14px;
+        width: 36%;
+        gap: 10%;
+    }
+
+    main section #info {
+        width: 90%;
+        margin-top: 170px;
+        gap: 2%;
+    }
+
+    main section #info p {
+        font-size: 14px;
+    }
+    
+    main #places-catalogue {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    main #places-catalogue article {
+        width: 100%;
+        padding: 30px 15px;
+        border-radius: 15px;
+        background: var(--main-bg-color);
+    }
+
+    main #places-catalogue article #title-most-popular {
+        width: 98%;
+        padding-left: 5px;
+        margin: 0;
+    }
+
+    main article ul {
+        gap: 15px;
+        padding: 0;
+        left: 0;
+    }
+
+    main article .most-popular img {
+        width: 111.67px;
+    }
+
+    main article .sponsored-card {
+        position: relative;
+        width: 100%;
+        height: auto;
+        left: 0;
+    }
+
+    main article .sponsored-card-info {
+        width: 170px;
+    }
+
+    main article #title-desktop {
+        display: none;
+    }
+
+    main article .sponsored-card-info #title-mobil {
+        display: contents;
+    }
+
+    main article #sponsored-star-rating-mobil {
+        top: 45px;
+    }
+
+    main #city-catalogue {
+        width: 100%;
+        margin-top: 35px;
+    }
+
+    main #city-catalogue h2 {
+        padding-left: 5px;
+    }
+    main .shadow-style {
+        background: none;
+        padding: 0;
+    }
+
+    main #city-catalogue ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    main .main-card {
+        width: 100%;
+    }
+
+    main .main-card img {
+        width: 97%;
+    }
+
+    main #places-catalogue #read-more {
+        padding-left: 5px;
+    }
+
+    main #activities {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 30px 0;
+        margin-bottom: 0;
+    }
+
+    main #activities h2 {
+        margin: 0 auto 30px 30px;
+    }
+
+    main #activities .card {
+        width: 94%;
+    }
+
+    main #activities ul {
+        width: 94%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        gap: 15px;
+    }
+
+    main #activities ul li a {
+        width: 100%;
+    }
+
+    main #activities ul li img {
+        width: 100%;    
+        height: 141px;
+        object-fit: cover;
+        object-position: 0 50%;
+    }
+
+    footer {
+        width: 100%;
+        flex-direction: column;
+        margin: 0;
+        padding: 5%;
+    }
+
+}
+
+
+/* To handle screens wider than 1440px */
+@media (min-width: 1441px) {
+    body {
+        max-width: 1440px; /* Max width and center content with white space on sides */
+        margin: 0 auto;
+        overflow-x: initial; /* Revert to default behavior */
+    }
+
+    main section #mobil-research-btn {
+        display: none;
+        position: relative;    
+    }
+
+    main article #title-mobil {
+        display: none;
+    }
+
+    footer {
+        width: 93%;
+        padding-left: 3%;
+    }
+}
