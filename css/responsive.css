@@ -5,15 +5,20 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
     body {
-        max-width: 768px; /* Max width for tablets */
-    }
-
-    nav {
-        gap: 72%;
+        max-width: 1024px; /* Max width for tablets */
+        min-width: 768px; /* Min width for tablets */
     }
 
     main {
-        width: 118%;
+        width: 94%;
+    }
+
+    main header nav ul {
+
+    }
+
+    main form {
+        max-width: 55%;
     }
 
     main section #mobil-research-btn {
@@ -37,6 +42,10 @@
     main #city-catalogue {
         width: 94%;
         margin-bottom: 35px;
+    }
+
+    main #city-catalogue ul li a {
+        width: 99%;
     }
 
     main .shadow-style #city-catalogue {
@@ -67,10 +76,6 @@
         width: 32%;
     }
 
-    /*main article #title-desktop {
-        display: none;
-    }*/
-
     main article ul li {
         width: 60%;
     }
@@ -81,7 +86,8 @@
 
     main article .sponsored-card-info {
         width: 60%;
-        padding: 9.73px 4.87px 6.87px 9.6px;
+        padding: 9.73px 4.87px 0px 9.6px;
+        justify-content: space-between;
     }
 
     main article span {
@@ -89,15 +95,15 @@
     }
 
     main article #au-coeur-sponsored {
-        top: 49px;
+        top: 0;
     }
 
     main article .sponsored-star-rating  {
-        top: 49px;
+        top: 0;
     }
 
     main article #tablette {
-        top: 68px;
+        top: 0;
     }
 
     main #activities {
@@ -121,7 +127,7 @@
     }
 
     footer {
-        width: 118%;
+        width: 94%;
     }
 }
 
@@ -130,7 +136,7 @@
     body {
         display: flex;
         flex-direction: column;
-        max-width: 375px;
+        max-width: 767px;
         height: auto;
         gap: 30px;
     }
@@ -193,7 +199,7 @@
         padding: 0;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
     }
 
     main section #research {
@@ -217,6 +223,10 @@
         max-width: 100%;
         gap: 12%;
         bottom: 30px;
+    }
+
+    main form input {
+        width: 60%;
     }
 
 
@@ -244,7 +254,7 @@
 
     main .filters ul {
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         margin: 0;
         padding: 0;
         gap: 14.6px;
@@ -257,8 +267,13 @@
 
     main .filters ul li {
         font-size: 14px;
-        width: 36%;
+        width: 30%;
         gap: 10%;
+        justify-content: flex-start;
+    }
+
+    main .filters #nos_pepites {
+        width: 30%;
     }
 
     main section #info {
@@ -272,6 +287,7 @@
     }
     
     main #places-catalogue {
+        width: 100%;
         flex-direction: column-reverse;
         align-items: center;
     }
@@ -296,7 +312,8 @@
     }
 
     main article .most-popular img {
-        width: 111.67px;
+        width: 20%;
+        height: auto;
     }
 
     main article .sponsored-card {
@@ -304,10 +321,26 @@
         width: 100%;
         height: auto;
         left: 0;
+        flex: 1;
     }
 
     main article .sponsored-card-info {
-        width: 170px;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    main article #first-sponsored-card-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main article #au-coeur-sponsored {
+        top: 0;
+    }
+
+    main article .sponsored-card-info span {
+        position: relative;
+        top: 0;
     }
 
     main article #title-desktop {
@@ -318,9 +351,6 @@
         display: contents;
     }
 
-    main article #sponsored-star-rating-mobil {
-        top: 45px;
-    }
 
     main #city-catalogue {
         width: 100%;
@@ -340,12 +370,23 @@
         gap: 15px;
     }
 
+    main #city-catalogue ul li a {
+        /*align-items: center;*/
+    }
+
     main .main-card {
         width: 100%;
     }
 
+    main .main-card-info {
+        flex: 1;
+        position: relative;
+
+    }
+
     main .main-card img {
-        width: 97%;
+        width: 98%;
+        height: auto;
     }
 
     main #places-catalogue #read-more {
@@ -383,7 +424,6 @@
 
     main #activities ul li img {
         width: 100%;    
-        height: 141px;
         object-fit: cover;
         object-position: 0 50%;
     }
