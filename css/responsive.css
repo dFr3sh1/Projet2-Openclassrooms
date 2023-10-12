@@ -94,14 +94,6 @@
         font-size: 14px;
     }
 
-    main article #au-coeur-sponsored {
-        top: 0;
-    }
-
-    main article .sponsored-star-rating  {
-        top: 0;
-    }
-
     main article #tablette {
         top: 0;
     }
@@ -329,14 +321,10 @@
         justify-content: space-between;
     }
 
-    main article #first-sponsored-card-info {
+    /*main article #first-sponsored-card-info {
         display: flex;
         flex-direction: column;
-    }
-
-    main article #au-coeur-sponsored {
-        top: 0;
-    }
+    }*/
 
     main article .sponsored-card-info span {
         position: relative;

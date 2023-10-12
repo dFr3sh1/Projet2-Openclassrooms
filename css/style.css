@@ -14,6 +14,7 @@ body {
     max-width: 1440px;
     min-width: 320px;
     padding-bottom: 60.5px;
+    margin-top: 0;
 }
 
 * ul {
@@ -86,6 +87,7 @@ nav img {
 nav ul {
     display: flex;
     width: 22.2%;
+    margin: 0;
     padding: 0;
     flex-direction: row;
     align-items: center;
@@ -93,15 +95,11 @@ nav ul {
     line-height: 48.68px;
 }
 
-/*nav a {
-    border-top: 2px solid white;
-    }*/
-
 .line {
     position: relative;
     border-top: 3px solid;
     color: #ffffff;
-    top: -24px;
+    top: 0;
     width: 100%;
 }
 
@@ -309,26 +307,29 @@ main #city-catalogue h2 {
 }
 
 main #city-catalogue ul {
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     gap: 30px;
     margin: 0;
     padding: 0;
+}
+
+main #city-catalogue ul li {
+    width: calc(92%/3);
 }
 
 main #city-catalogue ul li a {
     display: flex;
     flex-direction: column;
     width: 100%;
-}
-
-main .main-card {
-    width: 30%;
+    height: 100%;
 }
 
 main .main-card img {
-    width: 96%;
+    width: auto;
     height: 120.73px;
     border-radius: 20px 20px 0px 0px;
     border: 5px solid var(--White, #FFF);
@@ -338,6 +339,7 @@ main .main-card img {
 main .main-card-info {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     margin: 0;
     padding-left: 15px;
 }
@@ -347,11 +349,8 @@ main .main-card-info h3 {
     margin-bottom: 8px;
 }
 
-main .main-card-info span {
-    margin-bottom: 8px;
-}
-
 main .star-rating {
+    margin-top: 8px;
     padding: 0 0 10px;
 }
 
@@ -387,11 +386,11 @@ main article #title-most-popular h2 {
 
 main article .sponsored-card {
     width: 100%;
-    height: auto;
     
 }
 
 main article .sponsored-card a {
+    display: flex;
     width: 100%;
 }
 
@@ -407,13 +406,10 @@ main article ul {
     padding: 0;
 }
 
-main article a {
-    display: flex;
-}
-
 main article .sponsored-card-info {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     width: 60%;
     padding: 9.73px 4.87px 4.87px 14.6px;
 }
@@ -433,19 +429,16 @@ main article .most-popular img {
     flex: 1;
 }
 
+main article .sponsored-card-info .sponsored-star-rating {
+    height: 10%;
+}
+
 main article h3 {
     margin-top: 0;
     margin-bottom: 5px;
 }
 
-main article .sponsored-star-rating {
-    position: relative;
-    top: 64px;
-}
 
-main article #au-coeur-sponsored {
-    top: 45px;
-}
 
 /*********** main article ends ***********/
 
