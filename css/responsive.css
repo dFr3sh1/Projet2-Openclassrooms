@@ -259,15 +259,15 @@
 
     main .filters ul li {
         font-size: 14px;
-        width: 35%;
+        width: 33%;
         gap: 10%;
         justify-content: flex-start;
     }
 
     main .filters #nos_pepites {
-        width: 35%;
+        width: 33%;
     }
-    
+
     main section #info {
         width: 90%;
         margin-top: 170px;
@@ -321,10 +321,10 @@
         justify-content: space-between;
     }
 
-    /*main article #first-sponsored-card-info {
+    main article #first-sponsored-card-info {
         display: flex;
         flex-direction: column;
-    }*/
+    }
 
     main article .sponsored-card-info span {
         position: relative;
