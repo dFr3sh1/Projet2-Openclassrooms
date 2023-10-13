@@ -463,12 +463,17 @@ main #activities h2 {
 }
 
 main #activities ul {
+    /*display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 15px;
+    justify-content: center;*/
     display: flex;
     margin: 0;
     padding: 0;
-    gap: 2%;
+    gap: 30px;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 main #activities li a {
