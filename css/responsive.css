@@ -358,8 +358,8 @@
         gap: 15px;
     }
 
-    main #city-catalogue ul li a {
-        /*align-items: center;*/
+    main #city-catalogue ul li {
+        width: 100%;
     }
 
     main .main-card {

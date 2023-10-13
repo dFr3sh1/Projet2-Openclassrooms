@@ -86,12 +86,12 @@ nav img {
 
 nav ul {
     display: flex;
-    width: 22.2%;
+    gap: 30%;
     margin: 0;
     padding: 0;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     line-height: 48.68px;
 }
 
