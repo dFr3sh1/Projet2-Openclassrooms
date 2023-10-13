@@ -259,15 +259,15 @@
 
     main .filters ul li {
         font-size: 14px;
-        width: 30%;
+        width: 35%;
         gap: 10%;
         justify-content: flex-start;
     }
 
     main .filters #nos_pepites {
-        width: 30%;
+        width: 35%;
     }
-
+    
     main section #info {
         width: 90%;
         margin-top: 170px;
