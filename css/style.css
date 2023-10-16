@@ -103,9 +103,10 @@ nav ul {
     width: 100%;
 }
 
-nav a:link  {
+/*nav a:link  {
     color: var(--main-color);
-}
+    
+}*/
 
 
 nav a:hover .line, a:hover {
@@ -228,7 +229,7 @@ main .filters ul {
     margin-left: -38.95px;
 }
 
-main .filters ul li {
+main .filters ul li a {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -246,7 +247,7 @@ main .filters ul li {
 }
 
 main .filters #nos_pepites {
-    width: 122px;
+    width: 163px;
 }
 
 main .filters ul li:hover {
