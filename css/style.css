@@ -29,12 +29,20 @@ a {
 .filters svg {
     max-width: 21.42px;
     max-height: 21.42px;
-    fill: #0065FC;
 }
 
 .fa-star {
     max-width: 13.92px;
     max-height: 12.90px;    
+}
+
+.fa-solid {
+    color: var(--main-color);
+}
+
+
+.fa-solid-grey {
+    color: var(--main-bg-color);
 }
 
 h1, h2 {
@@ -250,7 +258,7 @@ main .filters #nos_pepites {
     width: 163px;
 }
 
-main .filters ul li:hover {
+main .filters ul a:hover {
     background-color: var(--filter-bg-color);
 }
 
