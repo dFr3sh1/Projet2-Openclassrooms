@@ -407,7 +407,8 @@
     }
 
     main #activities ul li img {
-        width: 100%;    
+        width: 100%;
+        height: 180px;    
         object-fit: cover;
         object-position: 0 50%;
     }
