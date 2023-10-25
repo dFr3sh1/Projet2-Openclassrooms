@@ -208,9 +208,10 @@
     }
 
     main form {
-        max-width: 100%;
-        gap: 12%;
+        max-width: auto;
+        /*gap: 12%;*/
         bottom: 30px;
+        justify-content: space-between;
     }
 
     main form input {
